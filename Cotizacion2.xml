@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- COTIZACION DE RODAMIENTOS --> 
+
+<Cotizacion numero="2">
+
+  <Vigencia>
+    
+    <!-- Supongo que la cotizacion la recibe en el momento -->
+    <Fecha>20/09/2016</Fecha>
+    <Termino>30</Termino>
+  
+  </Vigencia>
+  
+  <Cliente>
+    
+    <Cuil>789</Cuil>
+    <RazonSocial>Hiper Rodamiento S.R.L</RazonSocial>
+    
+  </Cliente>
+    
+  <CondicionesDeVenta>
+    
+    <!-- Si paga al contado 10% de descuento -->
+    <PagoContado>
+     
+      <Descuento>5%</Descuento>
+      
+    </PagoContado>
+    
+    <Financiacion>
+      
+      <!-- Si paga luego de 30 dias 10% de recargo -->
+      <CantidadDias>60</CantidadDias>
+      <Recargo>20%</Recargo>
+    
+    </Financiacion>
+
+  </CondicionesDeVenta>
+  
+  <Referencia>
+      
+    <SolicitudCotizacion>
+        
+       <Numero>2</Numero>
+       <Fecha>20/09/2016</Fecha>
+      
+    </SolicitudCotizacion>
+
+    <Rodamientos>
+    
+      <Item serie="6204">
+    
+        <Sufijo>2RSC3</Sufijo>
+        <Marca>SFK</Marca>
+        <Origen>Brasil</Origen>
+        <!-- ¿ Precio unitario o por las 1000 piezas ? -->
+        <Precio>4000</Precio>
+        <Cantidad>1500</Cantidad>
+      
+      </Item>
+
+    </Rodamientos>
+
+  </Referencia>
+
+</Cotizacion>

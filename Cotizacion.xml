@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- COTIZACION DE RODAMIENTOS --> 
+
+<Cotizacion numero="1">
+
+  <Vigencia>
+    
+    <!-- Supongo que la cotizacion la recibe en el momento -->
+    <Fecha>12/12/2016</Fecha>
+    <Termino>30</Termino>
+  
+  </Vigencia>
+  
+  <Cliente>
+    
+    <Cuil>123</Cuil>
+    <RazonSocial>Rodamiento S.A</RazonSocial>
+    
+  </Cliente>
+    
+  <CondicionesDeVenta>
+    
+    <!-- Si paga al contado 10% de descuento -->
+    <PagoContado>
+     
+      <Descuento>10%</Descuento>
+      
+    </PagoContado>
+    
+    <Financiacion>
+      
+      <!-- Si paga luego de 30 dias 10% de recargo -->
+      <CantidadDias>30</CantidadDias>
+      <Recargo>10%</Recargo>
+    
+    </Financiacion>
+
+  </CondicionesDeVenta>
+  
+  <Referencia>
+      
+    <SolicitudCotizacion>
+        
+       <Numero>1</Numero>
+       <Fecha>12/12/2016</Fecha>
+      
+    </SolicitudCotizacion>
+
+    <Rodamientos>
+    
+      <Item serie="22310">
+    
+        <Sufijo>CCW33</Sufijo>
+        <Marca>ZKL</Marca>
+        <Origen>Japon</Origen>
+        <!-- ¿ Precio unitario o por las 1000 piezas ? -->
+        <Precio>3000</Precio>
+        <Cantidad>1000</Cantidad>
+      
+      </Item>
+
+    </Rodamientos>
+
+  </Referencia>
+
+</Cotizacion>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- COTIZACION DE RODAMIENTOS --> 
+
+<Cotizacion numero="3">
+
+  <Vigencia>
+    
+    <!-- Supongo que la cotizacion la recibe en el momento -->
+    <Fecha>15/10/2016</Fecha>
+    <Termino>30</Termino>
+  
+  </Vigencia>
+  
+  <Cliente>
+    
+    <Cuil>456</Cuil>
+    <RazonSocial>Super Rodamiento</RazonSocial>
+    
+  </Cliente>
+    
+  <CondicionesDeVenta>
+    
+    <!-- Si paga al contado 10% de descuento -->
+    <PagoContado>
+     
+      <Descuento>0</Descuento>
+      
+    </PagoContado>
+    
+    <Financiacion>
+      
+      <!-- Si paga luego de 30 dias 10% de recargo -->
+      <CantidadDias>30</CantidadDias>
+      <Recargo>20%</Recargo>
+    
+    </Financiacion>
+
+  </CondicionesDeVenta>
+  
+  <Referencia>
+      
+    <SolicitudCotizacion>
+        
+       <Numero>3</Numero>
+       <Fecha>15/10/2016</Fecha>
+      
+    </SolicitudCotizacion>
+
+    <Rodamientos>
+    
+      <Item serie="6200">
+    
+        <Sufijo>2RS</Sufijo>
+        <Marca>FAG</Marca>
+        <Origen>Alemania</Origen>
+        <!-- ¿ Precio unitario o por las 1000 piezas ? -->
+        <Precio>1500</Precio>
+        <Cantidad>500</Cantidad>
+      
+      </Item>
+
+    </Rodamientos>
+
+  </Referencia>
+
+</Cotizacion>

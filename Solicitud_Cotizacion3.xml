@@ -1,0 +1,23 @@
+<SolicitudCotizacion numero="3" fecha="15/10/2016">
+		
+	<Cliente>
+
+		<Cuil>456</Cuil>
+		<RazonSocial>Super Rodamiento</RazonSocial>
+
+	</Cliente>
+	
+	<Rodamientos>
+		
+		<Item serie="6200">
+
+			<Sufijo>2RS</Sufijo>
+			<Marca>FAG</Marca>
+			<Origen>Alemania</Origen>
+			<Cantidad>500</Cantidad>
+
+		</Item>
+		
+	</Rodamientos>
+	
+</SolicitudCotizacion>

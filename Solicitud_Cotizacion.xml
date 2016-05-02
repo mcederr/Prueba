@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SOLICITUD DE COTIZACION -->
+
+<SolicitudCotizacion numero="1" fecha="12/12/2016">
+		
+	<Cliente>
+
+		<Cuil>123</Cuil>
+		<RazonSocial>Rodamiento S.A</RazonSocial>
+
+	</Cliente>
+	
+	<Rodamientos>
+		
+		<Item serie="22310">
+
+			<Sufijo>CCW33</Sufijo>
+			<Marca>ZKL</Marca>
+			<Origen>Japon</Origen>
+			<Cantidad>1000</Cantidad>
+
+		</Item>
+		
+	</Rodamientos>
+	
+</SolicitudCotizacion>

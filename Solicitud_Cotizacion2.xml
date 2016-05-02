@@ -1,0 +1,23 @@
+<SolicitudCotizacion numero="2" fecha="20/09/2016">
+		
+	<Cliente>
+
+		<Cuil>789</Cuil>
+		<RazonSocial>Hiper Rodamiento S.R.L</RazonSocial>
+
+	</Cliente>
+	
+	<Rodamientos>
+		
+		<Item serie="6204">
+			
+			<Sufijo>2RSC3</Sufijo>
+			<Marca>SFK</Marca>
+			<Origen>Brasil</Origen>
+			<Cantidad>1500</Cantidad>
+	
+		</Item>
+		
+	</Rodamientos>
+	
+</SolicitudCotizacion>
